@@ -27,6 +27,16 @@ services:
     ports:
       - "8080:8080"
 
+  api-editor:
+    image: esperotech/yaade
+    restart: always
+    environment:
+      YAADE_ADMIN_USERNAME: admin
+    volumes:
+      - ./backend/yaade:/app/data
+    ports:
+      - "9339:9339"
+
   frontend:
     image: nginx
     restart: always
