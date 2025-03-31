@@ -5,6 +5,9 @@
 First off all you need to install Docker.
 <https://docs.docker.com/get-started/get-docker/>
 
+Install Restfox for API-Testing:
+<https://github.com/flawiddsouza/Restfox/releases/>
+
 Then you need vscode or a similar ide.
 
 Recursively clone this Repository.
@@ -35,9 +38,6 @@ docker compose -f development-compose.yaml down
 
 These Services will be installed:
 
-- Api Development <http://localhost:9339>
-  - User: admin
-  - Password: password
 - Database Editor <http://localhost:8080>
   - Server: database
   - User: admin
