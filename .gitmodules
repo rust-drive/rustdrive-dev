@@ -1,0 +1,8 @@
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:rust-drive/frontend.git
+	branch = development
+[submodule "backend"]
+	path = backend
+	url = git@github.com:rust-drive/backend.git
+	branch = development
