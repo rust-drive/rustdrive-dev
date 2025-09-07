@@ -38,12 +38,10 @@ docker compose -f development-compose.yaml down
 
 These Services will be installed:
 
-- Database Editor <http://localhost:8080>
-  - Server: database
+- Api Development <http://localhost:9339>
   - User: admin
-  - Password: cloud-dev-123
+  - Password: password
 - Frontend <http://localhost:80>
   - User: john
   - Password: doe
 - Backend <http://localhost:8000>
-- Database
